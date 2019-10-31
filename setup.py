@@ -11,7 +11,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 # Dynamically calculate the version based on mailjet_rest.VERSION.
-version = __import__('mailjet_rest').get_version()
+version = __import__('mailjet_rest.utils.version').get_version()
 
 setup(
     name=PACKAGE_NAME,
