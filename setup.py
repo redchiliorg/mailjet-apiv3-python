@@ -5,7 +5,7 @@ import os
 from setuptools import find_packages, setup
 
 HERE = os.path.abspath(os.path.dirname(__file__))
-PACKAGE_NAME = 'mailjet_rest'
+PACKAGE_NAME = 'mailjet-apiv3-python'
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
